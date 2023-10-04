@@ -1,0 +1,42 @@
+﻿.bg-abstract, .navbar {
+    background: #4b4e4f;
+    color: white;
+    text-shadow: 1px 1px black;
+    z-index: 100;
+    border-radius:10px;
+}
+a:link, a:visited {
+    color: deeppink;
+    z-index:100;
+    font-size:120%;
+    padding:10px;
+}
+a:hover {
+    background: #FDF0F1;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.table{
+    background:white;
+    z-index:100;
+    font-size:110%;
+}
+.navbar,.navbar-brand{
+    font-size:120%;
+}
+i {
+    color: white;
+}
+.btn-primary, .btn-danger{
+    background:deeppink;
+}
+.btn-primary:hover, .btn-danger:hover {
+     background: #FDF0F1;
+     color:deeppink;
+}
+body{
+    color:black;
+}
+
